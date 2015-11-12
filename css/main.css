@@ -1,0 +1,243 @@
+/* CSS Document */
+
+/*Global Css starts*/
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul li{
+	padding:0px;
+	margin:0px;
+}
+
+
+.clear{
+	clear:both;
+}
+
+a, a img{
+	text-decoration:none;
+	border:0;
+	outline:none;
+}
+
+ul li{
+	list-style-type:none;
+}
+
+/*Global Css Ends*/
+
+
+
+/*Main Css starts*/
+
+.nav {
+  background: #888888;
+  padding-top: 10px;
+
+}
+.nav a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 18px 10px;
+  text-transform: uppercase;
+  
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url(../graphics/orzel.jpeg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+    height: 100px;
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron h4 {
+  height: 50px;
+  color: #fff;
+  font-size: 34px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron .container a {
+    position: relative;
+  font-size: 20px;
+  color: #0080FF;
+   display: block;
+  
+}
+
+.jumbotron p {
+    position: relative;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.fotografia {
+background-image:url(../graphics/SP.jpg);
+height: 700px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.fotografia .container {
+  position: relative;
+  top:50px;
+}
+.fotografia .container h1 {
+    color: white;
+    top:1000px; <!--nie ogarniam czemu nie tworzy sie odstep-->
+    font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+     text-shadow:
+   -1px -1px 0 #585858,  
+    1px -1px 0 #585858,
+    -1px 1px 0 #585858,
+     1px 1px 0 #585858;
+    }
+.fotografia .container p {
+    
+    font-size: 20px;
+    }
+
+
+.www {
+background-image:url(../graphics/TR.jpg);
+height: 750px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: -250px;
+}
+.www .container {
+  position: relative;
+  top:50px;
+}
+.www .container h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+     text-shadow:
+   -1px -1px 0 #585858,  
+    1px -1px 0 #585858,
+    -1px 1px 0 #585858,
+     1px 1px 0 #585858;
+    }
+.www .container p {
+    
+    font-size: 20px;
+    }
+   
+.wiecej-info {
+  background-color: white;
+  position: relative;
+  
+}
+
+.wiecej-info h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wiecej-info a {
+  color: #00b0ff;
+}
+
+/* Style na stronie z fotosami */
+}
+.above-border {
+  background: red;
+  height: 10px;
+  position: relative;
+
+}
+
+.prace-foto .container {
+  position: relative;
+  top:30px;
+}
+.prace-foto .container h2 {
+
+  height: 50px;
+  position: relative;
+}
+
+.wiecej-info .test-odstepu {
+ margin-bottom: 100px;
+  position: relative;
+
+}.nav-foto .container .pull-left {
+  font-size: 20px;
+  background: grey;
+  margin-top: 20px; 
+
+} 
+.nav-foto .container .pull-left a {
+  font-size: 18px;
+  color: white;
+  border-top: 20px;
+} 
+
+.nav-foto a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  
+}
+
+.nav-foto li {
+  display: inline;
+}
+
+/*pytanie*/
+.wysr
+{
+  margin: auto;
+  width: 30%;
+
+  padding: 10px;
+
+}
+/*Main Css Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
